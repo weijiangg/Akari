@@ -1,0 +1,85 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+  .intro{
+        -fx-font-size: 65px;
+        -fx-font-family: "Stencil";
+        -fx-text-fill: #FF6000;
+        -fx-font-weight: bold;
+  }
+  .not_satisfied {
+      -fx-background-color: #bd0d33;
+      -fx-text-fill: #fbeedd;
+      -fx-alignment: center;
+      -fx-font-size: 21px;
+      -fx-border-color: black;
+      -fx-border-width: 1px;
+  }
+  .satisfied {
+      -fx-background-color: #119127;
+      -fx-text-fill: #fbeedd;
+      -fx-alignment: center;
+      -fx-font-size: 21px;
+      -fx-border-color: black;
+      -fx-border-width: 1px;
+  }
+  .black_square {
+      -fx-background-color: #000000;
+      -fx-text-fill: #000000;
+      -fx-border-color: black;
+      -fx-border-width: 1px;
+  }
+  .nofill {
+      -fx-background-color: #bdb5b5;
+      -fx-border-color: black;
+      -fx-border-width: 1px;
+  }
+  .yellowsquare {
+      -fx-background-color: #d1c849;
+      -fx-border-color: black;
+      -fx-border-width: 1px;
+  }
+  .yellowlamp {
+    -fx-background-size: 40px 40px;
+    -fx-background-color: #d1c849;
+    -fx-alignment: center;
+    -fx-background-image: url('light-bulb.png');
+    -fx-background-size: 40px 40px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+  }
+  .redlamp {
+      -fx-background-color: #bd0d33;
+      -fx-background-radius: 0;
+      -fx-background-insets: 0;
+      -fx-background-image: url('light-bulb.png');
+      -fx-background-size: 40px 40px;
+      -fx-background-repeat: no-repeat;
+      -fx-background-position: center;
+      -fx-border-color: black;
+      -fx-border-width: 1px;
+  }
+  .buttons {
+    -fx-pref-width: 155;
+    -fx-pref-height: 55;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+
+  }
+  .button:hover {
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+  }
+   .winner{
+     -fx-font-size: 32px;
+     -fx-font-family: "Stencil";
+     -fx-text-fill: #FF6000;
+     -fx-font-weight: bold;
+   }
+  }
